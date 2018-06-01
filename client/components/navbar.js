@@ -9,4 +9,4 @@ const NavBar = () =>
     <ul>
   </nav>
 
-export default About
+export default NavBar 
