@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-const NavBar = () =>
+const Navbar = () =>
   <nav>
     <ul className="navbar">
       <li>About Me</li>
       <li>Projects</li>
       <li>Contact Me</li>
-    <ul>
+    </ul>
   </nav>
 
-export default NavBar 
+export default Navbar 
