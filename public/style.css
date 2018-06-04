@@ -38,6 +38,11 @@ nav a {
   margin: 5px;
 }
 
+.active {
+  background-color: black;
+  color: white;
+}
+
 @media all and (max-width: 600px) {
   #navbar {
     flex-wrap: wrap;
