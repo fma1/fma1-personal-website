@@ -35,7 +35,7 @@ nav a {
 #navbar > li {
   flex: 1;
   display: inline;
-  margin: 5px;
+  padding: 5px;
 }
 
 .active {
