@@ -34,6 +34,7 @@ nav a {
 
 #navbar > li {
   flex: 1;
+  display: inline;
 }
 
 @media all and (max-width: 600px) {
