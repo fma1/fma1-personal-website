@@ -10,12 +10,18 @@ label {
   display: block;
 }
 
+nav {
+  border-style: solid;
+  border-width: 5px;
+
+}
+
 nav a {
   display: inline-block;
   margin: 1em;
 }
 
-ul {
+#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
