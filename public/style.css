@@ -15,22 +15,28 @@ nav a {
   margin: 1em;
 }
 
-.navbar > li {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar > li {
   flex: 1;
 }
 
 @media all and (max-width: 600px) {
-  .navbar {
+  #navbar {
     flex-wrap: wrap;
   }
   
-  .navbar > li {
+  #navbar > li {
     flex-basis: 50%;
   }
 }
 
 @media all and (max-width: 400px) {
-  .navbar > li {
+  #navbar > li {
     flex-basis: 100%;
   }
 }
