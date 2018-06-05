@@ -17,9 +17,9 @@ export default class Navbar extends Component {
   render() {
     <nav>
       <ul id="navbar">
-        <li id="about" className={selectedId === 'about' ? 'active' : '' onClick={(e) => handleChange(e)}}>About Me</li>
-        <li id="projects" className={selectedId === 'projects' ? 'active' : '' onClick={(e) => handleChange(e)}}>Projects</li>
-        <li id="contact" className={selectedId === 'contact' ? 'active' : '' onClick={(e) => handleChange(e)}}>Contact Me</li>
+        <li id="about" className={selectedId === 'about' ? 'active' : ''} onClick={(e) => handleChange(e)}>About Me</li>
+        <li id="projects" className={selectedId === 'projects' ? 'active' : ''} onClick={(e) => handleChange(e)}>Projects</li>
+        <li id="contact" className={selectedId === 'contact' ? 'active' : ''} onClick={(e) => handleChange(e)}>Contact Me</li>
       </ul>
     </nav>
   }
