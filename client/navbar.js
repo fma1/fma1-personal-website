@@ -15,6 +15,17 @@ export default class Navbar extends Component {
     history.push(`/${selectedId}`)
   }
 
+  componentDidMount() {
+    const pathname = window.location.pathname.slice(1)
+
+    switch (pathname) {
+      case 'projects':
+        this.setState({ selectedId: 'projects' })
+      case 'contact':
+        this.setState({ selectedId: 'contact' })
+    }
+  }
+
   render() {
     return (
       <nav>
