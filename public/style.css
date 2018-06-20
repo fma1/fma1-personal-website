@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   background-image: url("http://res.cloudinary.com/dx1uhvlo8/image/upload/v1529456626/code-coding-computer-34676_yacmkz.jpg");
   background-size: cover;
+  color: white;
 }
 
 a {
@@ -39,12 +40,10 @@ nav a {
   flex: 1;
   display: inline;
   padding: 5px;
-  color: white;
 }
 
 .active {
   background-color: black;
-  color: white;
 }
 
 @media all and (max-width: 600px) {
@@ -75,8 +74,4 @@ form div {
 img {
   width: 50%;
   height: auto;
-}
-
-h3 {
-  color: white;
 }
